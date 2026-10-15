@@ -6,7 +6,6 @@ int main() {
     int escolha,palpite;
 
     printf("Número para advinhar (1-1000):\n");
-    while (escolha > 1000,escolha < 1)
     scanf("%d",&escolha); 
     
     {printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n");
@@ -17,11 +16,14 @@ int qpalp;
     qpalp = 10;
     
     printf("Advinha o número entre 1-1000:\n");
-    
         while(palpite != escolha) {
 
     scanf("%d",&palpite);
-    
+            if (qpalp == 0) {
+
+                printf("\nFicaste sem tentativas. O número era %d",escolha);
+                   exit(0);
+            }
     if (palpite == escolha) {
         
         printf("\nAcertaste!");
@@ -42,9 +44,5 @@ int qpalp;
         }
             printf("\nTentativas Restantes:%d\n",qpalp);
     } 
-// ultima atualização - 13/10/26 - 15:25
-}
-
-    } 
-
+// ultima atualização - 15/10/26 - 10:15
 }
