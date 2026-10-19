@@ -3,6 +3,10 @@
 
 int main() {
 
-  int var
+  int cont,turma;
+  
+
+printf("Qual o tamanho da turma?");
+scanf("%d",&turma);
   
 }
