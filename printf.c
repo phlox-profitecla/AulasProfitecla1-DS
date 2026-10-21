@@ -1,8 +1,7 @@
-#include <std.io>
+#include <stdio.h>
 
 int main() {
 
 printf("boas mano");
 
-return 0;
 }
