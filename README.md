@@ -4,4 +4,4 @@
   Este repo serve de armazenamento para os projetos feitos nas aulas de programação do prof. João Dias
 </p>
 </p>
-<p align="left">  Feito 100% em C.
+<p align="center">  Feito 100% em C.
